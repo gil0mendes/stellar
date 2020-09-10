@@ -21,7 +21,9 @@
     "test": "node test.js",
     "test:travis": "NODE_ENV=test ./node_modules/istanbul/lib/cli.js cover ./test",
     "coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
@@ -41,7 +43,7 @@
     "node-resque": "^4.0.7",
     "primus": "7.3.4",
     "qs": "^6.5.0",
-    "sails-disk": "1.0.0-12",
+    "sails-disk": "1.1.2",
     "should": "^13.0.0",
     "source-map-support": "^0.5.0",
     "st-formidable": "^1.0.18",
@@ -52,7 +54,8 @@
     "waterline": "0.13.6",
     "winston": "^2.1.1",
     "winston-daily-rotate-file": "^1.4.6",
-    "ws": "^4.0.0"
+    "ws": "^4.0.0",
+    "snyk": "^1.393.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -83,5 +86,6 @@
   },
   "bin": {
     "stellar": "./bin/stellar"
-  }
+  },
+  "snyk": true
 }
