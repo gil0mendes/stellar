@@ -49,7 +49,7 @@
     "sywac": "^1.2.0",
     "then-fakeredis": "^2.0.1",
     "uglify-es": "^3.0.25",
-    "uuid": "3.4.0",
+    "uuid": "8.3.2",
     "waterline": "github:balderdashy/waterline#v0.14.0-5",
     "winston": "^2.1.1",
     "winston-daily-rotate-file": "^1.4.6",
