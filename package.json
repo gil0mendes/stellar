@@ -67,7 +67,7 @@
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-node": "11.1.0",
     "istanbul": "^0.4.3",
-    "request": "2.87.0"
+    "request": "2.88.2"
   },
   "repository": {
     "type": "git",
