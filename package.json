@@ -42,7 +42,7 @@
     "primus": "7.3.4",
     "qs": "^6.5.0",
     "ramda": "^0.27.1",
-    "sails-disk": "1.0.0-12",
+    "sails-disk": "1.1.2",
     "should": "^13.0.0",
     "source-map-support": "^0.5.0",
     "st-formidable": "^1.0.18",
