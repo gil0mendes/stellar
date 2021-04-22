@@ -29,7 +29,7 @@
     "bcrypt": "5.0.0",
     "bluebird": "^3.5.0",
     "browser_fingerprint": "1.0.4",
-    "chalk": "^2.0.1",
+    "chalk": "^4.1.1",
     "etag": "^1.7.0",
     "fakeredis": "^2.0.0",
     "i18n": "^0.13.2",
